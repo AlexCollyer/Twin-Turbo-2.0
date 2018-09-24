@@ -1,0 +1,8 @@
+-CAR MOVEMENT- is handled within:
+rm_Play > obj_playerCar
+rm_Play > obj_carMoveButtonLeft
+rm_Play > obj_carMoveButtonRight
+
+
+-CAMERA AND VIEWPORTS- is handled within:
+All Room > obj_control.

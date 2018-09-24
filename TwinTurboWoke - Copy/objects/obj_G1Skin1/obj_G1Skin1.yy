@@ -1,0 +1,29 @@
+{
+    "id": "a0ace1a5-7d11-4a22-813f-3da4404d7d70",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "obj_G1Skin1",
+    "eventList": [
+        
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": null,
+    "solid": false,
+    "spriteId": "f3f43d6e-d53e-4d4f-a0ac-996ed9723a10",
+    "visible": true
+}

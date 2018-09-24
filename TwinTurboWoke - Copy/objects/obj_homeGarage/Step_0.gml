@@ -1,0 +1,1 @@
+scr_xyOnView(global.cgvw, 0);
