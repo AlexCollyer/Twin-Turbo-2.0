@@ -26,7 +26,7 @@ speedMaxLevel	= 50;
 
 for (var i = 0; i < speedMaxLevel; i++)
 {
-	speedAdd = .2 + (speedLevel * 5);
+	speedAdd = (speedLevel /2 ) * 10;
 	spd[i] = speedAdd;
 }
 
