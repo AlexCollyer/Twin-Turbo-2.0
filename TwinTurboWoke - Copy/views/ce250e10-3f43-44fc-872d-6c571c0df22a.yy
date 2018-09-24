@@ -10,8 +10,7 @@
         "d36cdb5f-62da-4558-8d15-544d19e7078d",
         "205ae2a1-3b40-4cb5-a012-6b7e75eb683b",
         "57e120ac-c7b6-4d19-b5bd-3ec69dc3cadd",
-        "0759460c-6dfc-4f4a-b250-44c162fb27d8",
-        "c62df69e-597f-4909-965e-451e176302a0"
+        "0759460c-6dfc-4f4a-b250-44c162fb27d8"
     ],
     "filterType": "GMObject",
     "folderName": "rm_Play",

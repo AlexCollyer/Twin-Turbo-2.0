@@ -743,14 +743,6 @@
             }
         },
         {
-            "Key": "c62df69e-597f-4909-965e-451e176302a0",
-            "Value": {
-                "id": "70c71188-d2b9-4b2e-be14-77a8ab2abd5f",
-                "resourcePath": "objects\\obj_carAlert\\obj_carAlert.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c9e52909-0108-454d-b654-0743f745df4c",
             "Value": {
                 "id": "f603d3e9-261a-4bab-b80b-efedfd166c30",
