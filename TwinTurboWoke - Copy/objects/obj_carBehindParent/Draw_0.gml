@@ -1,11 +1,12 @@
-if ((point_distance(id.x, id.y, obj_playerCar.x, obj_playerCar.y) > distanceAlmostOnScreen) &&
-obj_playerCar.y < id.y)
+// ---- DRAWS A RED LANE FADE TO INDICATE A CAR IS COMING FROM BEHIND --------------------------------
+if (id.y > obj_playerCar.y + distanceAlmostOnScreen)
 {
-	draw_sprite(spr_carAlert, 0, x, y - 50);
+	draw_sprite(spr_carAlert, 0, x, y - 20);
+	carAlertOpacity = 1;
 }
 else
 {
-	draw_sprite_ext(spr_carAlert, 0, x, obj_playerCar.y + 290, 1, 1, 0, image_blend, carAlertOpacity);
+	draw_sprite_ext(spr_carAlert, 0, x, obj_playerCar.y + distanceAlmostOnScreen, 1, 1, 0, image_blend, carAlertOpacity);
 	carAlertOpacity -= 0.01;
 }
 
