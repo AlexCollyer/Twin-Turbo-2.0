@@ -20,7 +20,7 @@ for (var i = 0; i < handlingMaxLevel; i++)
 
 
 // ---- SPEED OF CAR ARRAY ------------
-speedLevel		= 1;
+speedLevel		= 2;
 var speedAdd	= 0;
 speedMaxLevel	= 50;
 
