@@ -35,7 +35,7 @@ carBehindTimer	= 150;
 alarm[0]		= carBehindTimer;
 
 
-// ---- UPGRADES -----------------------------------------
+// ---- UPGRADES -------------------------------------------------
 theOldValue			= obj_playerCar.spd[obj_playerCar.speedLevel];
 speedPickup			= false;
 speedPickupSpeed	= 2;
