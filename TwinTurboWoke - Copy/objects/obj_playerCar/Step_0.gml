@@ -18,5 +18,14 @@ switch (movementControl)
 // ---- LERP TO POSITION --------------------------
 x += ((carPosition) - x) * handling[handlingLevel]; 
 
-// ---- SPEED OF CAR ----
-y -= spd[speedLevel];
+
+// ---- SPEED OF CAR --------------------------------------------
+if (speedPickup == false)
+{
+	y -= spd[speedLevel];
+}
+else
+{
+	spd[speedLevel] = lerp(spd[speedLevel], theOldValue * 3, .2);
+	y -= spd[speedLevel];
+}

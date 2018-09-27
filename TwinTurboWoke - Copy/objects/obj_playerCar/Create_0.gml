@@ -26,10 +26,17 @@ speedMaxLevel	= 50;
 
 for (var i = 0; i < speedMaxLevel; i++)
 {
-	speedAdd = (speedLevel /2 ) * 10;
-	spd[i] = speedAdd;
+	speedAdd	= (speedLevel /2 ) * 10;
+	spd[i]		= speedAdd;
 }
 
 // ---- CAR FROM BEHIND ----
-carBehindTimer = 150;
-alarm[0] = carBehindTimer;
+carBehindTimer	= 150;
+alarm[0]		= carBehindTimer;
+
+
+// ---- UPGRADES -----------------------------------------
+theOldValue			= obj_playerCar.spd[obj_playerCar.speedLevel];
+speedPickup			= false;
+speedPickupSpeed	= 2;
+speedPickupDuration = 60;

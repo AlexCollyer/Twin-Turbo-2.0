@@ -12,7 +12,8 @@
         "ff7696a1-614e-48f0-934d-075ebe4819d8",
         "1bc35160-02cc-4c10-8679-45b794c09865",
         "9e3308ee-633c-446f-aaa7-75ebfb138b4d",
-        "1d0ca20c-7dee-431d-a458-d69357fc9428"
+        "1d0ca20c-7dee-431d-a458-d69357fc9428",
+        "4f7eccd0-6cc4-4e03-954f-7581d9e3282a"
     ],
     "filterType": "GMSprite",
     "folderName": "Play Room",
