@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "54f6781f-54cf-414a-956d-eb1372590424",
+            "Value": {
+                "id": "3d84cbfd-c303-421f-9bc6-583ecf885a88",
+                "resourcePath": "objects\\obj_roadBlock\\obj_roadBlock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "55918ef6-3fd1-405e-8f1a-b63665032642",
             "Value": {
                 "id": "a12f34ce-3534-4680-9d43-935dda808ee9",
@@ -924,6 +932,14 @@
                 "id": "e0bc7c3a-d03d-4d1c-814c-9354545a7cff",
                 "resourcePath": "views\\e18715df-5936-4ae8-af6e-80eb7b04a990.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e32e109d-52a6-4653-a84e-3a6185ae4541",
+            "Value": {
+                "id": "977015e4-b395-4399-bb1e-1641168cd660",
+                "resourcePath": "sprites\\spr_roadBlock\\spr_roadBlock.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
