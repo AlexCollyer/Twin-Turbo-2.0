@@ -1,3 +1,4 @@
+randomise();
 x = room_width / 2;
 scr_garagePos();
 
