@@ -9,7 +9,7 @@ if (room == rm_Play)
 		{
 			instance_create_layer(choose(obj_playerCar.trackPosition1, obj_playerCar.trackPosition2, obj_playerCar.trackPosition3, obj_playerCar.trackPosition4), (wave - irandom(600)), "GameObjects", obj_carInfrontParent);
 			
-			speedSpawn = choose(0);
+			speedSpawn = choose(0, 1, 2, 3, 4, 5);
 			if (speedSpawn == 0)
 			{
 				instance_create_layer(choose(obj_playerCar.trackPosition1, obj_playerCar.trackPosition2, obj_playerCar.trackPosition3, obj_playerCar.trackPosition4), (wave - irandom(600)), "GameObjects", obj_speedPickup);
