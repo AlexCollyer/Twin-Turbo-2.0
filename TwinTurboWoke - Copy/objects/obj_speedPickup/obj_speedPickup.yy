@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_speedPickup",
     "eventList": [
-        
+        {
+            "id": "4cda7ab5-5657-4232-a6f0-9723d4934139",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "8f18a37d-9040-4731-8fd5-5eb60c1f9381"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
