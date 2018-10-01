@@ -20,5 +20,9 @@ global.xPosOnView = global.cgvw *.15;
 global.yPosOnView = global.cgvh *.92;
 
 
+// ---- POSITION OF HP BAR GUI -------------------------
+roomCenterHP = (global.cgvx + ( (global.cgvw / 2) -50));
+
+
 // ---- VIEWPORT POSITION FOR SPAWN ----
 view_size = 768;
