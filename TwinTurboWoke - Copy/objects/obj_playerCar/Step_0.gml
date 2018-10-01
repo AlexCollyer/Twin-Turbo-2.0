@@ -29,3 +29,10 @@ else
 	spd[speedLevel] = lerp(spd[speedLevel], theOldValue * 3, .2);
 	y -= spd[speedLevel];
 }
+
+
+// ---- DAMAGE TO PLAYER (HEALTH) ----
+if (damageHealth == true)
+{
+	playerHealth -= 2;
+}	

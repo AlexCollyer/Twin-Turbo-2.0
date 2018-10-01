@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "8b594d23-d4ad-422b-af6c-20d2527084ea",
+            "Value": {
+                "id": "e9e8da84-101c-483b-a9ef-5988845074b0",
+                "resourcePath": "sprites\\spr_playerHealth\\spr_playerHealth.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8c7e6b0f-2911-49c3-a217-e593f0987b8f",
             "Value": {
                 "id": "0263823f-8104-4bac-95dc-ed13d4fd7e49",
@@ -652,6 +660,14 @@
                 "id": "043e6292-d7ef-4729-a14a-8941d1d940aa",
                 "resourcePath": "objects\\obj_achievementIcon\\obj_achievementIcon.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a7f9dd5e-bcf8-400a-8a98-aa23b7b82c0c",
+            "Value": {
+                "id": "5322d73c-2226-4560-b84e-3d9f2d28e3d3",
+                "resourcePath": "scripts\\scr_damagePlayer\\scr_damagePlayer.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1038,7 +1054,8 @@
         "fb34f547-f6b6-4e17-93f0-6d2897a7b9a9",
         "0d98f410-ac3a-48b9-bfc7-96f544b774f7",
         "826c5f84-c5e7-43c8-a8e7-2f05f986d844",
-        "890e9996-2534-4473-90ef-230e0bb97386"
+        "890e9996-2534-4473-90ef-230e0bb97386",
+        "a7f9dd5e-bcf8-400a-8a98-aa23b7b82c0c"
     ],
     "tutorial": ""
 }
