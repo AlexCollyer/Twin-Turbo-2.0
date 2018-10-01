@@ -15,6 +15,6 @@ else if (room == rm_Play)
 {
 	for (var i = 0; i < obj_playerCar.playerHealth; i++)
 	{
-		draw_sprite(spr_playerHealth, 0, (obj_playerCar.x - 50) + i, obj_playerCar.y + 60);
+		draw_sprite(spr_playerHealth, 0, (global.cgvx + ( (global.cgvw / 2) -50)) + i, global.cgvy + 50);
 	}
 }
