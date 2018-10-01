@@ -4,5 +4,8 @@ speedPickup = true;
 if (speedPickup == true)
 {
 	alarm[1] = speedPickupDuration;
-	instance_destroy(obj_speedPickup.id);
+	with(other)
+	{
+		instance_destroy(id);	
+	}
 }
