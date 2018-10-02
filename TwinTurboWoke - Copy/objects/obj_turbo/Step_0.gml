@@ -7,7 +7,7 @@ if (clicked == true) && (drainTurbo == true) && (turboLevelBar > 0)
 {
 	// ---- SPEED UP ----
 	obj_playerCar.spd[obj_playerCar.speedLevel] = lerp(obj_playerCar.spd[obj_playerCar.speedLevel], theOldValue * 5, .05);
-	turboLevelBar -= obj_playerCar.tLevel;
+	turboLevelBar -= 2;
 }
  if (clicked == false) 
 {

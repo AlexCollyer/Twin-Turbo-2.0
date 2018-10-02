@@ -8,6 +8,7 @@ movementControl = 4;
 
 
 // ---- HANDLING ARRAY FOR PLAYER CAR ----
+<<<<<<< HEAD
 hLevel1				= 0;
 hLevel2				= .5;
 hLevel3				= 1.5;
@@ -21,14 +22,21 @@ handlingLevel		= hLevel1;
 var handlingAdd		= 0;
 handlingMaxLevel	= 6;
  
+=======
+handlingLevel		= 0;
+var handlingAdd		= 0;
+handlingMaxLevel	= 5;
+
+>>>>>>> parent of b73a646... Update
 for (var i = 0; i < handlingMaxLevel; i++)
 {
-	handlingAdd	+= .05;
+	handlingAdd += .05;
 	handling[i] = handlingAdd;
 }
 
 
 // ---- SPEED OF CAR ARRAY ------------
+<<<<<<< HEAD
 sLevel1			= 1;
 sLevel2			= 1.2;
 sLevel3			= 1.4;
@@ -41,6 +49,9 @@ for (i=0; i<6; i++) {
 
 
 speedLevel		= sLevel1;
+=======
+speedLevel		= 2;
+>>>>>>> parent of b73a646... Update
 var speedAdd	= 0;
 speedMaxLevel	= 50;
 
@@ -50,6 +61,7 @@ for (var i = 0; i < speedMaxLevel; i++)
 	spd[i]		= speedAdd;
 }
 
+<<<<<<< HEAD
 
 // ---- TURBO LEVEL ----
 tLevel1 = 2;
@@ -67,6 +79,8 @@ tLevel	= tLevel1;
 for (i=0; i<6; i++) {
 	global.carUpgrades[2,i] = 1 + (i*1);	
 }	show_debug_message(global.carUpgrades)
+=======
+>>>>>>> parent of b73a646... Update
 // ---- CAR FROM BEHIND ---------
 carBehindTimer	= 150;
 alarm[0]		= carBehindTimer;
@@ -79,7 +93,7 @@ speedPickupSpeed	= 2;
 speedPickupDuration = 60;
 
 
-// ---- HEALTH ------
+// ---- HEALTH ----
 playerHealth = 100;
 damageHealth = false;
 
