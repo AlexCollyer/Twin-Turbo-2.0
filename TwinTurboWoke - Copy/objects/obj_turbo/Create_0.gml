@@ -2,7 +2,7 @@
 depth = -1;
 clicked = false;
 theOldValue = obj_playerCar.spd[obj_playerCar.speedLevel];
-nitroSeconds = 1;
+nitroSeconds = 2;
 turboLevel = room_speed * nitroSeconds;
 turboLevelBar = 100;
 turboLevelBarMax = 100;
