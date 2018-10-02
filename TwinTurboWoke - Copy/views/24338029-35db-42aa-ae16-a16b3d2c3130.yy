@@ -6,6 +6,7 @@
     "children": [
         "41f5b8ba-9028-4534-8959-509b675b209f",
         "05b449b5-f91f-4b2a-8716-08e6fa16cdeb",
+        "068b0773-fcc3-485d-8d85-46bc6751a0d4",
         "b02ccd9f-8bf5-45ce-9ad5-33eb3fec5f80",
         "79deff03-50fe-458d-8308-21d6a526e84f",
         "ff7696a1-614e-48f0-934d-075ebe4819d8",
@@ -16,8 +17,7 @@
         "4f7eccd0-6cc4-4e03-954f-7581d9e3282a",
         "e32e109d-52a6-4653-a84e-3a6185ae4541",
         "8b594d23-d4ad-422b-af6c-20d2527084ea",
-        "8f40e180-009c-4470-9c1f-682e11e4a6ab",
-        "9940ca43-8a24-40ff-a701-9c64de8f5794"
+        "8f40e180-009c-4470-9c1f-682e11e4a6ab"
     ],
     "filterType": "GMSprite",
     "folderName": "Play Room",

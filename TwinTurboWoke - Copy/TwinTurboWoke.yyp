@@ -55,14 +55,6 @@
             }
         },
         {
-            "Key": "026cc10e-a8f3-4dc4-a158-da4d5b1260ab",
-            "Value": {
-                "id": "a98095c1-9f66-4285-bbf4-cba3bd4b9d96",
-                "resourcePath": "sprites\\spr_playerCar2\\spr_playerCar2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "05a6dcfd-7712-4cd6-ac2f-23ba23c0edf9",
             "Value": {
                 "id": "efb48ce6-dabe-487d-921e-3545844a0d4a",
@@ -195,14 +187,6 @@
             "Value": {
                 "id": "cbb2559e-6280-4c6a-a9cb-835273c1ba8e",
                 "resourcePath": "sprites\\spr_carAlert\\spr_carAlert.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "1d202a04-a7e8-4730-94c1-9c1478e6d048",
-            "Value": {
-                "id": "08227a7c-2016-4947-ad81-6579672828a5",
-                "resourcePath": "sprites\\spr_playerCar3\\spr_playerCar3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -647,14 +631,6 @@
             }
         },
         {
-            "Key": "9940ca43-8a24-40ff-a701-9c64de8f5794",
-            "Value": {
-                "id": "08b0a553-f143-4278-bc73-6d369c34ab44",
-                "resourcePath": "views\\9940ca43-8a24-40ff-a701-9c64de8f5794.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "9a11f5d8-d12a-4bdf-8fc5-fe51a6c66ded",
             "Value": {
                 "id": "edd92bd5-40ed-41c7-9de5-4ab534db0dbd",
@@ -939,14 +915,6 @@
             "Value": {
                 "id": "0a6c81ad-7bee-419c-ae60-f48ea889ba58",
                 "resourcePath": "sprites\\spr_G3Skin1\\spr_G3Skin1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d3e4deb6-560e-42d4-8804-9714b2e7d59a",
-            "Value": {
-                "id": "b8a59dd0-f1a7-4709-a354-777686138620",
-                "resourcePath": "sprites\\spr_playerCar1\\spr_playerCar1.yy",
                 "resourceType": "GMSprite"
             }
         },
