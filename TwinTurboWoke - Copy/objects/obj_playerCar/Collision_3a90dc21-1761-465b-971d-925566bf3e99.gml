@@ -19,3 +19,8 @@ with (other)
 }
 
 obj_turbo.turboLevelBar += 25;
+
+if (obj_turbo.turboLevelBar > 100)
+{
+	obj_turbo.turboLevelBar = 100;	
+}
