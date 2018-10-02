@@ -1,4 +1,6 @@
 // ---- SPEED UPGRADE ----------------
+
+/*
 speedPickup = true;
 
 if (speedPickup == true)
@@ -9,3 +11,11 @@ if (speedPickup == true)
 		instance_destroy(id);	
 	}
 }
+*/
+
+with (other)
+{
+	instance_destroy(id);	
+}
+
+obj_turbo.turboLevelBar += 25;

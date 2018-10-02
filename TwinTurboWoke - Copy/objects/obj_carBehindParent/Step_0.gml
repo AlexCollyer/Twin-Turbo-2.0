@@ -1,2 +1,2 @@
 // ---- GIVES SPEED ----
-y -= 12.5;
+y -= carSpeed;

@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "8f40e180-009c-4470-9c1f-682e11e4a6ab",
+            "Value": {
+                "id": "8ad7ddec-3706-4fe0-b0a5-086a6806e66e",
+                "resourcePath": "sprites\\spr_boostBar\\spr_boostBar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "97a53b99-f09d-4287-96da-af9d2ba2688b",
             "Value": {
                 "id": "fc05483b-7d0b-45cc-91bc-a7592f9ffbae",

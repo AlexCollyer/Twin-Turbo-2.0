@@ -1,1 +1,2 @@
-y -= 5;
+// ---- CAR SPEED ----
+y -= carSpeed;
