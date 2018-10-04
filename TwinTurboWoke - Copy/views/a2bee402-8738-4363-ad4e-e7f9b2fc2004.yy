@@ -7,8 +7,8 @@
         "cd2c3e16-6b2e-44d1-91e8-e5c1580d131f",
         "6ff2a4c4-7563-4948-837d-dacd0ddcfb50",
         "874c817c-606e-4969-9c1b-756b3148667c",
-        "841c2a18-a63d-4418-ae02-1aec81763bff",
-        "b804523a-5863-40c1-a86f-ea0f76c1eba8"
+        "b804523a-5863-40c1-a86f-ea0f76c1eba8",
+        "9940ca43-8a24-40ff-a701-9c64de8f5794"
     ],
     "filterType": "GMSprite",
     "folderName": "Garage Room",

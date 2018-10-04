@@ -1,8 +1,8 @@
 {
-    "id": "a0ace1a5-7d11-4a22-813f-3da4404d7d70",
+    "id": "0527d45c-ecd7-48fc-b70f-24f0b9061b65",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_G1Skin1",
+    "name": "obj_playerCar2",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f3f43d6e-d53e-4d4f-a0ac-996ed9723a10",
+    "spriteId": "026cc10e-a8f3-4dc4-a158-da4d5b1260ab",
     "visible": true
 }
