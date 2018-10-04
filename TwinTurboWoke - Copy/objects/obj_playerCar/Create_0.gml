@@ -1,4 +1,4 @@
-// ---- POSITION OF CAR ON ROAD -----
+ // ---- POSITION OF CAR ON ROAD -----
 trackPosition4	= global.cgvw / 1.17;
 trackPosition3	= global.cgvw / 1.51;
 trackPosition2	= global.cgvw / 2.2;
