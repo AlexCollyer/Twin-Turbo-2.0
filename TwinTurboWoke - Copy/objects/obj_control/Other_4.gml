@@ -1,6 +1,9 @@
 // ---- SPAWNS OBJECTS ON MAP ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 if (room == rm_Play)
 {
+	// if no audio is playing, play audio
+	// if audio playing continue audio
+	
 	for (var i = 0; i < 51; i++)
 	{
 		wave = view_size * i
@@ -23,3 +26,11 @@ if (room == rm_Play)
 		}
 	}
 }
+
+// if room is garage 
+// if no audio is playing, play audio
+// if audio playing continue audio
+
+// if room is Lobby 
+// if no audio is playing, play audio
+// if audio playing continue audio
