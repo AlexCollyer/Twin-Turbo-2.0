@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "1033afdd-d98c-4502-a29a-48b97bac3b3e",
+            "Value": {
+                "id": "d8bf8073-d29b-4db3-8b9d-c22f756519b1",
+                "resourcePath": "sprites\\spr_overlayPause\\spr_overlayPause.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1152a8da-734e-4ef9-972b-be493e3b3776",
             "Value": {
                 "id": "f38823e6-5785-40f8-b20b-62c3b7ce92c6",

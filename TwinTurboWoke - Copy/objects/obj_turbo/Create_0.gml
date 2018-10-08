@@ -1,5 +1,5 @@
 // ---- VARIABLES TO CONTROL TUBRO BOOST -----------------
-depth = -1;
+depth = -2;
 clicked = false;
 theOldValue = obj_playerCar.spd[obj_playerCar.speedLevel];
 nitroSeconds = 2;
