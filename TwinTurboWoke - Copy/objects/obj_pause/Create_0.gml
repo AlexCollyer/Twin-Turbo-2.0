@@ -1,0 +1,2 @@
+// ---- GAME PAUSE ----
+gameIsPaused = false;
