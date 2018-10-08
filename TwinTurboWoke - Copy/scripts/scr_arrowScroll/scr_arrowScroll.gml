@@ -8,5 +8,6 @@ switch (obj_control.arrowPosition)
 	break;
 	
 	case 3 : scr_moveCamera(obj_control.garageThreeX, global.cgvy);
+	
 	break;
 }

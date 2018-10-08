@@ -1,5 +1,5 @@
 // ---- TRIGGER MOVEMENT VARIABLE ----
-if (image_alpha > .5 )
+if (image_alpha > .9 )
 {
 	if (obj_control.arrowPosition != 1)
 	{

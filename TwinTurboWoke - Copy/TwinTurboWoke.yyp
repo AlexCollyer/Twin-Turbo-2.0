@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "0a983ed4-ed01-4292-b129-9b4e8c992d25",
+            "Value": {
+                "id": "004c9cab-67a9-4659-a9f4-b5db10ffd10b",
+                "resourcePath": "extensions\\MoPubExtension\\MoPubExtension.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "0b160f36-534d-4737-b4b5-8da72949b510",
             "Value": {
                 "id": "3f9078bf-4535-4818-8da6-f591ba2af98c",
@@ -775,6 +783,14 @@
             }
         },
         {
+            "Key": "8294e506-9f5c-4312-8ad7-801fc1b71899",
+            "Value": {
+                "id": "01350aa2-2dfb-44c6-9324-23f55eb61074",
+                "resourcePath": "extensions\\GooglePlayServicesExtension\\GooglePlayServicesExtension.yy",
+                "resourceType": "GMExtension"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "65caf092-a784-4e44-9e36-dd4002db83ce",
@@ -1372,6 +1388,14 @@
                 "id": "909a33e2-c12f-4d51-bd72-377393a7b07b",
                 "resourcePath": "objects\\obj_homeSettings\\obj_homeSettings.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d9f182fe-696b-4f04-8e26-35d1637decf1",
+            "Value": {
+                "id": "74df2a6f-03f4-4d2a-b54c-04f5a4e6eaa9",
+                "resourcePath": "extensions\\GooglePlayLicensingAsExt\\GooglePlayLicensingAsExt.yy",
+                "resourceType": "GMExtension"
             }
         },
         {
