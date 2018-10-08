@@ -4,10 +4,11 @@
     "mvc": "1.1",
     "name": "b45dc1cf-fb7a-496a-8e94-a5ae34bfec68",
     "children": [
-        "fedc1266-71aa-43ee-9fbd-e33cdd50221a",
-        "665eee4b-ac46-4c05-9d95-ed664ef189f1",
-        "85e161f0-9d81-481b-8179-1f94c884a9f2",
-        "e88d3d4a-98ee-4f5f-aaa0-403f44e9ac39"
+        "e665d01c-2fc2-44f4-bff6-92b4818e471e",
+        "6323be45-1c5e-4e39-88f7-ff1d9ed5b8be",
+        "4a59c70e-256c-4c70-9dd4-cef90242a207",
+        "66d63a72-9d0d-4d26-a9d2-409ea5636669",
+        "0fdd6914-56c0-4d41-8ee7-21aad8f3fdda"
     ],
     "filterType": "GMObject",
     "folderName": "Car3",

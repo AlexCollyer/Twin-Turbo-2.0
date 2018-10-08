@@ -1,1 +1,9 @@
-obj_playerCar6._handling += 1;
+// ---- INCREASE UPGRADE VALUE ----
+if (objCar6_control._handling < 5)
+{
+	objCar6_control._handling += 1;
+}
+else // Test only
+{
+	objCar6_control._handling = 0;	
+}

@@ -1,1 +1,9 @@
-obj_playerCar3._break += 1;
+// ---- INCREASE UPGRADE VALUE ----
+if (objCar3_control._break < 5)
+{
+	objCar3_control._break += 1;
+}
+else // Test only
+{
+	objCar3_control._break = 0;	
+}

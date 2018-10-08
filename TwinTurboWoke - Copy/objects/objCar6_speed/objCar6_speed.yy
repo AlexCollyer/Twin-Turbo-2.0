@@ -1,18 +1,28 @@
 {
-    "id": "5f5c32f0-ece4-403c-9aff-453d72017e03",
+    "id": "5e7b8343-382c-4df2-8ce8-184dbf027b9c",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "objCar6_speed",
     "eventList": [
         {
-            "id": "5da9e836-1f76-4cc7-80ba-828f44778329",
+            "id": "5ecf48f9-ade3-4aeb-b63b-844f5ddd6b9c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 13,
-            "m_owner": "5f5c32f0-ece4-403c-9aff-453d72017e03"
+            "m_owner": "5e7b8343-382c-4df2-8ce8-184dbf027b9c"
+        },
+        {
+            "id": "646c33a2-53d1-446c-858a-0859f4e81c1f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "5e7b8343-382c-4df2-8ce8-184dbf027b9c"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
