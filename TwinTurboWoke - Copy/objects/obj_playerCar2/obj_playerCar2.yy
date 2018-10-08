@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_playerCar2",
     "eventList": [
-        
+        {
+            "id": "9a9bb2e7-c1f2-48a5-8559-85b00fe2437a",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0527d45c-ecd7-48fc-b70f-24f0b9061b65"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

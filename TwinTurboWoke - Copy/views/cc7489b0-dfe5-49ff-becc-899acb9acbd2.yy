@@ -6,7 +6,8 @@
     "children": [
         "d232c505-87fa-4b9e-b0c2-87eb572a057f",
         "05a6dcfd-7712-4cd6-ac2f-23ba23c0edf9",
-        "8d4b95f9-09c1-4ec2-b827-5ef9d61dac6b"
+        "8d4b95f9-09c1-4ec2-b827-5ef9d61dac6b",
+        "6f4bcaae-bd20-4da6-9ce0-d515fd09f918"
     ],
     "filterType": "GMObject",
     "folderName": "rm_Garage",
