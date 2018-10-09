@@ -10,6 +10,6 @@ global.windowGetWidth	= window_get_width();
 global.windowGetHeight	= window_get_height();
 
 
-// ---- CENTER SCREEN ON VIEW ----
+// ---- CENTER SCREEN ON VIEW ------------------
 global.centerX = global.cgvx + (global.cgvw /2);
 global.centerY = global.cgvy + (global.cgvh /2);
