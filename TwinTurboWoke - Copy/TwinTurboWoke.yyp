@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "59e11a0b-750f-443c-886e-98d06a6714e4",
+            "Value": {
+                "id": "adf84dae-d539-483d-aace-6b5f444b8b90",
+                "resourcePath": "scripts\\scr_rmPlayDraw\\scr_rmPlayDraw.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5c0d8f83-c5d6-4f6b-8572-ba67312d995f",
             "Value": {
                 "id": "6f9b41ef-3e48-4721-8d95-e0adb7474620",
@@ -1635,6 +1643,7 @@
         "0c7a11e7-f2ac-4bdb-9e9d-58c1ee69b0b2",
         "86ab5b86-7092-4702-910d-6e990d12b975",
         "13d5f58a-b452-445b-b145-059b4ea403a5",
+        "59e11a0b-750f-443c-886e-98d06a6714e4",
         "d448f55f-e5c0-4ef4-9269-f1e8f70b05e6",
         "2e283c62-6d2d-4a88-90a5-f7033cd0069c",
         "98dc0537-e0ca-45e2-bcd2-ed1965bf0a88",

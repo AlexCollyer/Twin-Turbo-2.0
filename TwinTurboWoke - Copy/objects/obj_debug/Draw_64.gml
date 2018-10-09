@@ -2,6 +2,8 @@
 
 if ((room == rm_Play) && (showStats == true))
 {
+	draw_set_halign(fa_left);
+	draw_set_color(c_black);
 	draw_text( 10, 20, "T - debug TurboPosChange: " +string(debugTurboPosChange));
 	draw_text( 10, 40, "S - debug SpeedLevel: " +string(debugSpeedLevel));
 	draw_text( 10, 60, "N - debug TurboControl: " +string(debugTurboControl));

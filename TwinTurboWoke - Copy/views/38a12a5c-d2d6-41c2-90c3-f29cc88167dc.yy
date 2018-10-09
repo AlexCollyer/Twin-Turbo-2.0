@@ -6,7 +6,8 @@
     "children": [
         "0c7a11e7-f2ac-4bdb-9e9d-58c1ee69b0b2",
         "86ab5b86-7092-4702-910d-6e990d12b975",
-        "13d5f58a-b452-445b-b145-059b4ea403a5"
+        "13d5f58a-b452-445b-b145-059b4ea403a5",
+        "59e11a0b-750f-443c-886e-98d06a6714e4"
     ],
     "filterType": "GMScript",
     "folderName": "obj Control Scripts",
