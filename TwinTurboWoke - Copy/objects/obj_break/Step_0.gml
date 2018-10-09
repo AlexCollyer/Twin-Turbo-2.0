@@ -1,4 +1,4 @@
-// ---- POSITION OF CLICKABLE OBJECT --------
+// ---- POSITION OF CLICKABLE obj_break ----
 scr_xyOnView(344.80, 706.56);
 
 

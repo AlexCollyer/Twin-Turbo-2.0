@@ -1,4 +1,4 @@
-// ---- HOME CAR PICTURE + TWIN TURBO ----------------------
+// ---- HOME CAR PICTURE + TWIN TURBO SPRITe ----
 carPictureYPos = y + 200;
 
 draw_sprite(spr_twinturboText, 0, x , y);
