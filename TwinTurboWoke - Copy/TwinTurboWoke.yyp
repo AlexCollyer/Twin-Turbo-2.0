@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "057479f6-5f61-4138-b37b-924e7b8cb687",
+            "Value": {
+                "id": "a14e4aa7-5671-438e-bf7e-39a326fb0677",
+                "resourcePath": "objects\\obj_wrenchPickup\\obj_wrenchPickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "05a6dcfd-7712-4cd6-ac2f-23ba23c0edf9",
             "Value": {
                 "id": "efb48ce6-dabe-487d-921e-3545844a0d4a",
@@ -1103,6 +1111,14 @@
             }
         },
         {
+            "Key": "a9e7b1c6-44b9-4390-83fe-11f68981b295",
+            "Value": {
+                "id": "061312b6-24c3-4d83-a657-0788bc6656e3",
+                "resourcePath": "sprites\\spr_paused\\spr_paused.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aaa8e83f-ed4a-44f3-b3ac-bb4918931e10",
             "Value": {
                 "id": "f19ecd53-c32b-4df3-ac82-0bcb18387bb5",
@@ -1147,6 +1163,14 @@
             "Value": {
                 "id": "383c9944-73ce-4b1b-9dbe-967128c390f0",
                 "resourcePath": "sprites\\spr_carBehindParent\\spr_carBehindParent.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b0a12518-a485-4047-92c2-940012b32420",
+            "Value": {
+                "id": "26907eae-1d70-4a62-b9c5-6a638e971d45",
+                "resourcePath": "sprites\\spr_wrenchPickup\\spr_wrenchPickup.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1243,6 +1267,14 @@
             "Value": {
                 "id": "35cde1c5-d6b8-4278-9755-8bb9baf1f987",
                 "resourcePath": "views\\bdc12f62-edaa-46c7-9cc5-5380f8761928.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "becbc900-f023-4d0b-8594-07b5547c95fc",
+            "Value": {
+                "id": "316f31d6-92cd-439c-9bf6-5d9dc0eb000e",
+                "resourcePath": "views\\becbc900-f023-4d0b-8594-07b5547c95fc.yy",
                 "resourceType": "GMFolder"
             }
         },

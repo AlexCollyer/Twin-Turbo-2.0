@@ -26,4 +26,3 @@ roomCenterHP = (global.cgvx + ((global.cgvw / 2) - 25));
 
 // ---- VIEWPORT POSITION FOR SPAWN ----
 view_size = 768;
-

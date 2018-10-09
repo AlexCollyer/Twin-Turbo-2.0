@@ -4,6 +4,12 @@ global.cgvw = camera_get_view_width(view_camera[0]);
 global.cgvx = camera_get_view_x(view_camera[0]);
 global.cgvy = camera_get_view_y(view_camera[0]);
 
+
 // ---- ADUST VIEWPORT PROPETIES -------------
 global.windowGetWidth	= window_get_width();
 global.windowGetHeight	= window_get_height();
+
+
+// ---- CENTER SCREEN ON VIEW ----
+global.centerX = global.cgvx + (global.cgvw /2);
+global.centerY = global.cgvy + (global.cgvh /2);
