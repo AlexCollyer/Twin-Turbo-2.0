@@ -8,4 +8,3 @@ turboLevelBar = 100;
 turboLevelBarMax = 100;
 drainTurbo = false;
 zoomOut = false;
-

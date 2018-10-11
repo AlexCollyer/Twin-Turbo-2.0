@@ -5,8 +5,8 @@ for (var i = 0; i < turboLevelBar; i++)
 	draw_sprite_ext(
 	spr_boostBar,
 	0,
-	(global.cgvx +((global.cgvw /2) - 30)) + i,
-	global.cgvy + global.cgvh - 50,
+	(global.windowGetWidth /2) - 50 + i,
+	global.windowGetHeight *.95,
 	2,
 	4,
 	0,
@@ -14,3 +14,6 @@ for (var i = 0; i < turboLevelBar; i++)
 	1
 	);
 }
+
+
+//draw_sprite_ext(spr_turbo,0,global.windowGetWidth/2,global.windowGetHeight/2,1,1,0,image_blend,1);

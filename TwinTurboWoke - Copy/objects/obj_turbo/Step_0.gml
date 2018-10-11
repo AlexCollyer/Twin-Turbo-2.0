@@ -16,11 +16,16 @@ if (clicked == false)
 	obj_playerCar.spd[obj_playerCar.speedLevel] = lerp(obj_playerCar.spd[obj_playerCar.speedLevel], theOldValue, .1);	
 }
 
-if (zoomOut == true)
-{
-	camera_set_view_size(view_camera[0], lerp(global.cgvw, global.newX, .1), lerp(global.cgvh, global.newY, .01));
+if (zoomOut == true) && (turboLevelBar > 0)
+{	
+	zoomXout =	lerp(global.cgvw, global.newX, .03);
+	zoomYout =	lerp(global.cgvh, global.newY, .03); 
+	camera_set_view_size(view_camera[0], zoomXout, zoomYout);
 }
 else
 {
-	camera_set_view_size(view_camera[0], lerp(global.cgvw, global.originalX, .1), lerp(global.cgvh, global.originalY, .01));
+	zoomXin = lerp(global.cgvw, global.originalX, .1);
+	zoomYin = lerp(global.cgvh, global.originalY, .1);
+	camera_set_view_size(view_camera[0], zoomXin, zoomYin);
 }
+
