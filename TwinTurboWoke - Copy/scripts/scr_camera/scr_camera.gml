@@ -13,3 +13,10 @@ global.windowGetHeight	= window_get_height();
 // ---- CENTER SCREEN ON VIEW ------------------
 global.centerX = global.cgvx + (global.cgvw /2);
 global.centerY = global.cgvy + (global.cgvh /2);
+
+
+// ---- ROOM CAMERA ----
+global.originalX	= 432;
+global.originalY	= 768;
+global.newX		= 475;
+global.newY		= 844

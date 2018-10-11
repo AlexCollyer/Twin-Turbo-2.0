@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "6f5962cc-427a-40f4-8f15-7b22595ee846",
+            "Value": {
+                "id": "f023a209-4f67-47c1-94aa-ec191d62fd76",
+                "resourcePath": "scripts\\scr_screenShake\\scr_screenShake.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6ff2a4c4-7563-4948-837d-dacd0ddcfb50",
             "Value": {
                 "id": "6ba1ca84-e837-4201-bddf-e7d4fc812f85",
@@ -1707,6 +1715,7 @@
         "dffda084-c76e-4fd7-aee7-908b076ecab9",
         "64cd8a03-5f33-4413-acd4-b034498e38b4",
         "b1b61699-1306-4f73-9bd9-0cb441c6ad0c",
+        "6f5962cc-427a-40f4-8f15-7b22595ee846",
         "826c5f84-c5e7-43c8-a8e7-2f05f986d844",
         "890e9996-2534-4473-90ef-230e0bb97386",
         "c9e52909-0108-454d-b654-0743f745df4c",

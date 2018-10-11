@@ -1,5 +1,4 @@
 // ---- DRAW TURBO BAR ------------------------
-/*
 for (var i = 0; i < turboLevelBar; i++)
 {
 	boostBarYscale = 2;
@@ -14,5 +13,4 @@ for (var i = 0; i < turboLevelBar; i++)
 	image_blend,
 	1
 	);
-}*/
-draw_self();
+}
