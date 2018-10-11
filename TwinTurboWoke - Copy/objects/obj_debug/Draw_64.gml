@@ -26,4 +26,9 @@ if ((room == rm_Play) && (showStats == true))
 		draw_text( 10, 90, "spd[speedLevel]: " +string(obj_playerCar.spd[obj_playerCar.speedLevel]));
 		draw_text( 10, 110, "obj_playerCar.speedLevel: " +string(obj_playerCar.speedLevel));
 	}
+	
+	if (instance_exists(obj_playerCar)) && (keyboard_check_pressed(vk_up))
+	{
+	draw_text(obj_playerCar.x, obj_playerCar.y, "collidingWithLorry: " +string(collidingWithLorry));
+	}
 }

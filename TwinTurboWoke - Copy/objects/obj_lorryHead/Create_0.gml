@@ -1,6 +1,9 @@
+depth = -1;
 // ---- ATTACH LORRY BODY --------------------------------
 lorryBody = instance_create_layer(x, y, "GameObjects", obj_lorryBody);
 lorryLegs = instance_create_layer(x, y, "GameObjects", obj_lorryLegs);
+lorryBody.depth = -1;
+lorryLegs.depth = -1;
 
 
 // ---- BODY OF THE LORRY ----

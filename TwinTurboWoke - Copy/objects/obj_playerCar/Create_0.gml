@@ -72,4 +72,6 @@ damageHealth = false;
 
 
 // ---- COLLISION ----
-collidingWithLorry = false;
+collidingWithLorry = true;
+collisionProtection = 60;
+lorryIsImmune = false;
