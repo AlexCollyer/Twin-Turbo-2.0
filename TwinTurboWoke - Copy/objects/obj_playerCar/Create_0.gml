@@ -67,4 +67,9 @@ speedPickupDuration = 60;
 
 // ---- HEALTH ------
 playerHealth = 100;
+playerHealthMax = 100;
 damageHealth = false;
+
+
+// ---- COLLISION ----
+collidingWithLorry = false;
