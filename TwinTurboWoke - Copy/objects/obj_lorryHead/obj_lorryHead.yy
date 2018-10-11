@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "obj_lorryHead",
     "eventList": [
-        
+        {
+            "id": "372efd21-bbcb-429f-a011-4eb69f6356a6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "046ed615-5789-475f-9e5c-008afb02e5ab"
+        },
+        {
+            "id": "ed15d9ee-ec28-4026-b35f-667721ebb698",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "046ed615-5789-475f-9e5c-008afb02e5ab"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

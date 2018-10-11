@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "4f586e8f-e528-4fd8-ad38-0d5c1e2a4c10",
+            "Value": {
+                "id": "23109829-21e2-48a4-ac07-3bdbb6f32fd3",
+                "resourcePath": "objects\\obj_lorryBody\\obj_lorryBody.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4f7eccd0-6cc4-4e03-954f-7581d9e3282a",
             "Value": {
                 "id": "ed51dd60-0a58-4289-a26d-e1a48ad96626",
