@@ -1,0 +1,1 @@
+raceFinished = true;

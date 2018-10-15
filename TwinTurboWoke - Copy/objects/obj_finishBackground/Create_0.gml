@@ -1,0 +1,2 @@
+spawnPosX = x;
+spawnPosY = y;

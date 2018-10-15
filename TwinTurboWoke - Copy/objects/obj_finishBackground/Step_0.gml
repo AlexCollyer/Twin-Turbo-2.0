@@ -1,0 +1,1 @@
+lerp(spawnPosY, 300, .1);

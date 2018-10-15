@@ -7,7 +7,7 @@ carPosition		= trackPosition1;
 movementControl = 4;
 
 
-// ---- HANDLING ARRAY FOR PLAYER CAR ----
+// ---- HANDLING ARRAY FOR PLAYER CAR -----
 hLevel1				= 0;
 hLevel2				= .5;
 hLevel3				= 1.5;
@@ -25,7 +25,7 @@ for (var i = 0; i < handlingMaxLevel; i++)
 }
 
 
-// ---- SPEED OF CAR ARRAY ------------
+// ---- SPEED OF CAR ARRAY --------------
 sLevel1			= 1;
 sLevel2			= 1.2;
 sLevel3			= 1.4;
@@ -65,13 +65,17 @@ speedPickupSpeed	= 2;
 speedPickupDuration = 60;
 
 
-// ---- HEALTH ------
+// ---- HEALTH -------
 playerHealth = 100;
 playerHealthMax = 100;
 damageHealth = false;
 
 
-// ---- COLLISION ----
+// ---- COLLISION --------
 collidingWithLorry = true;
 collisionProtection = 60;
 lorryIsImmune = false;
+
+
+// ---- RACE FINISH ----
+raceFinished = false;

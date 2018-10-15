@@ -13,4 +13,4 @@ if (gameIsPaused)
 	}	
 	draw_sprite(spr_overlayPause, 0, global.cgvx, global.cgvy - 50)
 }
-draw_self();
+//draw_self();

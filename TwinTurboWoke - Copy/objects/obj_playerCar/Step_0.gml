@@ -19,21 +19,31 @@ switch (movementControl)
 x += ((carPosition) - x) * handling[handlingLevel]; 
 
 
-// ---- SPEED OF CAR --------------------------------------------
+// ---- SPEED OF CAR ----
 if (speedPickup == false)
 {
 	y -= spd[speedLevel];
 }
-/*
-else
-{
-	spd[speedLevel] = lerp(spd[speedLevel], theOldValue * 3, .2);
-	y -= spd[speedLevel];
-}
-*/
+
 
 // ---- DAMAGE TO PLAYER (HEALTH) ----
 if (damageHealth == true)
 {
 	playerHealth -= 2;
 }	
+
+
+// ---- END OF RACE MENU ---------------------------------------------------
+if (raceFinished == true)
+{
+	instance_create_layer(room_width /2, -210, "GUI", obj_finishBackground);
+}
+
+
+
+
+
+
+
+
+
