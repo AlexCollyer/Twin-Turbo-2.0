@@ -1,1 +1,1 @@
-lerp(spawnPosY, 300, .1);
+y = lerp(y, 400, .1);

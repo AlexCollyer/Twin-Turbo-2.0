@@ -327,14 +327,6 @@
             }
         },
         {
-            "Key": "1eecd74c-ac4c-47b1-bd72-200200e0aa66",
-            "Value": {
-                "id": "20113576-be90-4896-9e48-7994b6789f44",
-                "resourcePath": "sprites\\spr_finishHome\\spr_finishHome.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "205ae2a1-3b40-4cb5-a012-6b7e75eb683b",
             "Value": {
                 "id": "b3fd135e-fe32-4c31-9477-bb57fc63302f",
@@ -543,6 +535,14 @@
             }
         },
         {
+            "Key": "432df5ec-3d4e-450d-b4ba-6b63f61a5e8a",
+            "Value": {
+                "id": "bbdc5908-4350-4b20-b488-eab4e5280efb",
+                "resourcePath": "sprites\\spr_finishHome\\spr_finishHome.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "45a4c224-9084-4a87-9997-1528bbc16e92",
             "Value": {
                 "id": "615e8674-a809-48ee-a20f-2574765ed108",
@@ -668,6 +668,14 @@
                 "id": "24e3014f-880b-4d19-8b35-1679bc04eaf4",
                 "resourcePath": "objects\\obj_carBehindParent\\obj_carBehindParent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "58a57fc1-d4ed-4cf0-af9e-88a30fcce4a7",
+            "Value": {
+                "id": "79691db4-ee89-4721-ab43-7350a7742377",
+                "resourcePath": "sprites\\spr_finishResume\\spr_finishResume.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1068,14 +1076,6 @@
                 "id": "a2025461-fe56-4ea2-8485-0c0dfd033102",
                 "resourcePath": "objects\\objCar2_control\\objCar2_control.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "95e1ed38-5dae-4d95-9708-be464d8265ae",
-            "Value": {
-                "id": "e7e007d7-a0df-42f4-bed3-1f2626412144",
-                "resourcePath": "sprites\\spr_finishResume\\spr_finishResume.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

@@ -79,3 +79,4 @@ lorryIsImmune = false;
 
 // ---- RACE FINISH ----
 raceFinished = false;
+spawned = false;

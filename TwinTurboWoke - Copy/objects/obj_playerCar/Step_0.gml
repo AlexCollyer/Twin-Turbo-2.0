@@ -34,9 +34,10 @@ if (damageHealth == true)
 
 
 // ---- END OF RACE MENU ---------------------------------------------------
-if (raceFinished == true)
+if (raceFinished == true) && (spawned == false)
 {
 	instance_create_layer(room_width /2, -210, "GUI", obj_finishBackground);
+	spawned = true;
 }
 
 
