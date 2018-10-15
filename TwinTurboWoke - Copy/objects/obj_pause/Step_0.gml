@@ -1,2 +1,3 @@
 // ---- POSITION OF CLICKABLE OBJECT ----
-scr_xyOnView(global.cgvw, 0)
+x = global.centerX + 220;
+y = global.centerY - 370;
