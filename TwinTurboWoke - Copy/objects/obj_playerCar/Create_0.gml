@@ -80,3 +80,11 @@ lorryIsImmune = false;
 // ---- RACE FINISH ----
 raceFinished = false;
 spawned = false;
+
+
+// ---- MOVEMENT ----
+angleFlicked = 0;
+clicked = false;
+theOldValue = spd[speedLevel];
+nitroSeconds = 1;
+turboLevel = room_speed * nitroSeconds;
