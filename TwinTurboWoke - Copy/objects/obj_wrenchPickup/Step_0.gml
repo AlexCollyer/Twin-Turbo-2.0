@@ -1,2 +1,5 @@
 // ---- SPEED RELATIVE TO PLAYER --------------------
-y -= obj_playerCar.spd[obj_playerCar.speedLevel] / 9;
+if (instance_exists(obj_playerCar))
+{
+	y -= obj_playerCar.spd[obj_playerCar.speedLevel] / 9;
+}

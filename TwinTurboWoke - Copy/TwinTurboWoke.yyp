@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "0bd63d6a-95e4-4d00-a8ba-07654bc4aea1",
+            "Value": {
+                "id": "9827054d-12ef-4bcd-939b-251d23ce9ba7",
+                "resourcePath": "views\\0bd63d6a-95e4-4d00-a8ba-07654bc4aea1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "0bd94629-a8c3-4f03-af5e-e30f93ac0683",
             "Value": {
                 "id": "3f887794-55eb-4d07-be79-2c766679ee72",
@@ -715,6 +723,14 @@
             "Value": {
                 "id": "86f67822-0bd6-4dee-a69f-320a74f4b42a",
                 "resourcePath": "objects\\objCar6_speed\\objCar6_speed.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "62b478c3-8183-4f51-97b4-c2511746db44",
+            "Value": {
+                "id": "1bcd517f-2f5a-4eff-b85b-182a2bfc9f54",
+                "resourcePath": "objects\\obj_minimap\\obj_minimap.yy",
                 "resourceType": "GMObject"
             }
         },

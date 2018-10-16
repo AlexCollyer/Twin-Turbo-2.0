@@ -19,10 +19,23 @@ switch (movementControl)
 x += ((carPosition) - x) * handling[handlingLevel]; 
 
 
-// ---- SPEED OF CAR ----
-if (speedPickup == false)
+// ---- SPEED OF CAR --------
+if (raceFinished == false)
 {
-	y -= spd[speedLevel];
+	if (speedPickup == false)
+	{
+		y += -spd[speedLevel];
+	}
+}
+else if (raceFinished == true)
+{ 
+	
+	if ( y <= -50){
+	camera_set_view_pos(view_camera[0], global.cgvx, global.cgvy);
+	instance_destroy(obj_pause);
+	instance_destroy(self);
+	}
+	y += -spd[speedLevel];
 }
 
 
@@ -39,12 +52,3 @@ if (raceFinished == true) && (spawned == false)
 	instance_create_layer(room_width /2, -210, "GUI", obj_finishBackground);
 	spawned = true;
 }
-
-
-
-
-
-
-
-
-

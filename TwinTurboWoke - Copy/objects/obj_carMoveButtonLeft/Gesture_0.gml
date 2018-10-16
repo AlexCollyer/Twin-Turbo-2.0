@@ -1,5 +1,8 @@
 // ---- CHANGE LANES ------------------
-if (obj_playerCar.movementControl != 1)
+if (instance_exists(obj_playerCar))
 {
-	obj_playerCar.movementControl -= 1;
+	if (obj_playerCar.movementControl != 1)
+	{
+		obj_playerCar.movementControl -= 1;
+	}
 }
