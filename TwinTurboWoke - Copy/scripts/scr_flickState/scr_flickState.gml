@@ -39,6 +39,7 @@ else if (angleFlicked < 225) && (angleFlicked > 135)
 			movementControl -= 1;
 		}
 	}
+	
 }
 // ---- FLICK RIGHT ----
 else if (angleFlicked < 45) || (angleFlicked > 315)

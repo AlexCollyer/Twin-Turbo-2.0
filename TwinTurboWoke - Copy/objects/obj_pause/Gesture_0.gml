@@ -34,6 +34,7 @@ if (gameIsPaused == true)
 	}
 	
 	instance_deactivate_all(true);	
+	instance_create_layer(room_width /2, -210, "GUI", obj_finishBackground);
 }
 else
 {

@@ -98,3 +98,8 @@ turboLevelBar = 100;
 turboLevelBarMax = 100;
 drainTurbo = false;
 zoomOut = false;
+
+
+// ---- LITERALLY SOMETHING ELSE ----
+image_speed = 0;
+image_index = 3;
