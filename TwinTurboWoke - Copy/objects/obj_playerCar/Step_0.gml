@@ -19,7 +19,7 @@ switch (movementControl)
 x += ((carPosition) - x) * handling[handlingLevel]; 
 
 
-// ---- SPEED OF CAR --------
+// ---- SPEED OF CAR ---------------------------------------------
 if (raceFinished == false)
 {
 	if (speedPickup == false)
@@ -59,12 +59,20 @@ if (angleFlicked == 0)
 {
 	
 }
-// ---- UP ----
+// ---- FLICK UP ----
 else if (angleFlicked < 135) && (angleFlicked > 45)
 {
-	
+	// ---- ACTIVATE TURBO IF NOT ALREADY IN USE ----
+	if (clicked_Turbo != true)
+	{
+		alarm[5] = turboLevel_Turbo;
+		clicked_Turbo = true;
+		drainTurbo = true;
+		zoomOut = true;
+		// Audio play nitro sound - no loop
+	}
 }
-// ---- DOWN ----
+// ---- FLICK DOWN ----
 else if (angleFlicked < 315) && (angleFlicked > 225) 
 {
 	angleFlicked = 0;
@@ -76,42 +84,72 @@ else if (angleFlicked < 315) && (angleFlicked > 225)
 	}
 
 }
-// ---- LEFT ----
+// ---- FLICK LEFT ----
 else if (angleFlicked < 225) && (angleFlicked > 135) 
 {
 	angleFlicked = 0;
 	if (instance_exists(obj_playerCar))
 	{
-		if (obj_playerCar.movementControl != 1)
+		if (movementControl != 1)
 		{
-			obj_playerCar.movementControl -= 1;
+			movementControl -= 1;
 		}
 	}
 }
-// ---- RIGHT ----
+// ---- FLICK RIGHT ----
 else if (angleFlicked < 45) || (angleFlicked > 315)
 {
 	angleFlicked = 0;
 	if (instance_exists(obj_playerCar))
 	{
-		if (obj_playerCar.movementControl != 4)
+		if (movementControl != 4)
 		{
-			obj_playerCar.movementControl += 1;
+			movementControl += 1;
 		}
 	}
 }
 
 if (instance_exists(obj_playerCar))
 {
-	// ---- USE BREAK --------------------------------------------------------------------------------------------------------
+	// ---- USE BREAK ------------------------------------------------------------------------------------------------------
 	if (clicked == true) 
 	{
 		// ---- SLOW DOWN ----
-		obj_playerCar.spd[obj_playerCar.speedLevel] = lerp(obj_playerCar.spd[obj_playerCar.speedLevel], theOldValue /5, .2);
+		spd[speedLevel] = lerp(spd[speedLevel], theOldValue /5, .2);
 	}
 	if (clicked == false) 
 	{
 		// ---- SPEED UP ----
-		obj_playerCar.spd[obj_playerCar.speedLevel] = lerp(obj_playerCar.spd[obj_playerCar.speedLevel], theOldValue, .1);	
+		spd[speedLevel] = lerp(spd[speedLevel], theOldValue, .1);	
+	}
+}
+
+if (instance_exists(obj_playerCar))
+{
+	// ---- USE TURBO -------------------------------------------------
+	if (clicked_Turbo == true) && (drainTurbo == true) && (turboLevelBar > 0)
+	{
+		// ---- SPEED UP ----
+		spd[speedLevel] = lerp(spd[speedLevel], theOldValue * 5, .05);
+		turboLevelBar -= tLevel;
+	}
+	if (clicked == false) 
+	{
+		// ---- SLOW DOWN ----
+		spd[speedLevel] = lerp(spd[speedLevel], theOldValue, .1);	
+	}
+
+	// ---- SPEED ZOOM OUT --------------------------------------
+	if (zoomOut == true) && (turboLevelBar > 0)
+	{	
+		zoomXout =	lerp(global.cgvw, global.newX, .03);
+		zoomYout =	lerp(global.cgvh, global.newY, .03);
+		camera_set_view_size(view_camera[0], zoomXout, zoomYout);
+	}
+	else
+	{
+		zoomXin = lerp(global.cgvw, global.originalX, .1);
+		zoomYin = lerp(global.cgvh, global.originalY, .1);
+		camera_set_view_size(view_camera[0], zoomXin, zoomYin);
 	}
 }

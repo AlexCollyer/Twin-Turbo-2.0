@@ -82,9 +82,19 @@ raceFinished = false;
 spawned = false;
 
 
-// ---- MOVEMENT ----
+// ---- VARIABLES TO CONTROL TUBRO BREAK ----
 angleFlicked = 0;
 clicked = false;
 theOldValue = spd[speedLevel];
 nitroSeconds = 1;
 turboLevel = room_speed * nitroSeconds;
+
+
+// ---- VARIABLES TO CONTROL TUBRO BOOST ----
+clicked_Turbo = false;
+nitroSeconds_Turbo = 2;
+turboLevel_Turbo = room_speed * nitroSeconds;
+turboLevelBar = 100;
+turboLevelBarMax = 100;
+drainTurbo = false;
+zoomOut = false;

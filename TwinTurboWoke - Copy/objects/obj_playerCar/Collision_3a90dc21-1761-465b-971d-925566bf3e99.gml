@@ -18,9 +18,9 @@ with (other)
 	instance_destroy(id);	
 }
 
-obj_turbo.turboLevelBar += 25;
+turboLevelBar += 25;
 
-if (obj_turbo.turboLevelBar > 100)
+if (turboLevelBar > 100)
 {
-	obj_turbo.turboLevelBar = 100;	
+	turboLevelBar = 100;	
 }
