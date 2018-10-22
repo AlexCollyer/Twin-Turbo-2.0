@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "15b08fc2-b4f1-4c7c-8efc-a218e169ff90",
+            "Value": {
+                "id": "8c7eda88-551c-4061-aad0-a819a58c1b60",
+                "resourcePath": "objects\\obj_policeBehind\\obj_policeBehind.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16551e6f-eea8-4dcb-8b69-04f817fa50cc",
             "Value": {
                 "id": "1364ff14-284d-4228-a199-1a7658a02912",
@@ -543,6 +551,14 @@
             }
         },
         {
+            "Key": "4074db88-f0b5-4e80-bfd6-2f1fc5db87d7",
+            "Value": {
+                "id": "0d2bde59-923b-4143-b3d2-5761d97fca5d",
+                "resourcePath": "objects\\obj_fuelPickup\\obj_fuelPickup.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "41f5b8ba-9028-4534-8959-509b675b209f",
             "Value": {
                 "id": "bbaf4208-c6ad-444e-b7fb-bca54d524c12",
@@ -716,6 +732,14 @@
                 "id": "adf84dae-d539-483d-aace-6b5f444b8b90",
                 "resourcePath": "scripts\\scr_rmPlayDraw\\scr_rmPlayDraw.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5beca641-38de-4522-95d1-8ffc00bb975d",
+            "Value": {
+                "id": "92ad6ceb-cba1-4218-9d7d-6072c3e2a369",
+                "resourcePath": "views\\5beca641-38de-4522-95d1-8ffc00bb975d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1159,6 +1183,14 @@
             }
         },
         {
+            "Key": "9c7e4cfc-2e9a-4d0e-a075-ef24a8be2f9e",
+            "Value": {
+                "id": "42ec8e2d-575e-4318-b38d-13b1e1fc7d5d",
+                "resourcePath": "views\\9c7e4cfc-2e9a-4d0e-a075-ef24a8be2f9e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "9d7acdff-671e-4fac-8fec-9fd93e6c63a5",
             "Value": {
                 "id": "75e735ef-2081-468f-87bc-e3f6bb63d13c",
@@ -1271,6 +1303,14 @@
             }
         },
         {
+            "Key": "aa3c5351-bf6a-4253-a1eb-13170e0434f8",
+            "Value": {
+                "id": "9674026a-f7d1-441e-8941-ea89e9554c92",
+                "resourcePath": "sprites\\spr_fuelPickup\\spr_fuelPickup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aaa8e83f-ed4a-44f3-b3ac-bb4918931e10",
             "Value": {
                 "id": "f19ecd53-c32b-4df3-ac82-0bcb18387bb5",
@@ -1335,6 +1375,14 @@
             }
         },
         {
+            "Key": "b19f3d11-6ac2-4ee2-83a5-df5bd55a1755",
+            "Value": {
+                "id": "f97c85d2-6088-4b0c-859e-63a34a8991ea",
+                "resourcePath": "views\\b19f3d11-6ac2-4ee2-83a5-df5bd55a1755.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b1b61699-1306-4f73-9bd9-0cb441c6ad0c",
             "Value": {
                 "id": "5cb3b035-38ab-4c07-a8ff-368b60ccf281",
@@ -1372,6 +1420,14 @@
                 "id": "72b85dc6-f6fc-4874-a945-eaa864bb5986",
                 "resourcePath": "sprites\\spr_playPlaceHolder\\spr_playPlaceHolder.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b6c28a3e-0c38-4d26-91c1-24f8354c00dd",
+            "Value": {
+                "id": "1eccb9bc-1904-490f-846c-7b9b5ca18f87",
+                "resourcePath": "objects\\obj_carInfrontPolice\\obj_carInfrontPolice.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1820,6 +1876,14 @@
                 "id": "1dc16fef-b7e3-4f90-952c-397513ebf592",
                 "resourcePath": "objects\\objCar1_turbo\\objCar1_turbo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd11d6a3-a3e2-492c-8057-6d3b16520a91",
+            "Value": {
+                "id": "487c3762-c578-4a9a-927c-8648c46f76e9",
+                "resourcePath": "sprites\\spr_carPolice\\spr_carPolice.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

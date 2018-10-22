@@ -53,9 +53,11 @@ tLevel6 = .4;
 tLevel	= tLevel1;
 
 
-// ---- CAR FROM BEHIND ---------
-carBehindTimer	= 150;
-alarm[0]		= carBehindTimer;
+// ---- CAR FROM BEHIND ----------------------
+carBehindTimer		= 150;
+policeBehindTimer	= random_range(800, 1400);
+alarm[0]			= carBehindTimer;
+alarm[6]			= policeBehindTimer;
 
 
 // ---- UPGRADES -------------------------------------------------
