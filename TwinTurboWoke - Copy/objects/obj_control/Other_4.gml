@@ -11,7 +11,7 @@ if (room == rm_Play)
 		for (var j = 0; j < 3; j++)
 		{
 			whichCar = irandom(7);
-			if (whichCar != 7)
+			if (whichCar != 7) 
 			{
 				instance_create_layer(choose(obj_playerCar.trackPosition1, obj_playerCar.trackPosition2, obj_playerCar.trackPosition3, obj_playerCar.trackPosition4), (wave + irandom(600)), "GameObjects", obj_carInfrontParent);
 			}

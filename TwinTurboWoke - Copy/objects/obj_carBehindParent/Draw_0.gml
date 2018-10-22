@@ -1,5 +1,4 @@
 // ---- DRAWS A RED LANE FADE TO INDICATE A CAR IS COMING FROM BEHIND ---------------------------------------------------
-
 if (instance_exists(obj_playerCar))
 {
 	if (y > 768)

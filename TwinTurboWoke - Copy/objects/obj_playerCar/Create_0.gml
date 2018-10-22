@@ -6,6 +6,10 @@ trackPosition1	= global.cgvw / 4.1;
 carPosition		= trackPosition1; 
 movementControl = 4;
 
+betweenLane_1_2 = (trackPosition1 + trackPosition2) /2;
+betweenLane_2_3 = (trackPosition2 + trackPosition3) /2;
+betweenLane_3_4 = (trackPosition3 + trackPosition4) /2;
+
 
 // ---- HANDLING ARRAY FOR PLAYER CAR -----
 hLevel1				= 0;
@@ -56,11 +60,13 @@ tLevel	= tLevel1;
 // ---- CAR FROM BEHIND ----------------------
 carBehindTimer		= 150;
 policeBehindTimer	= random_range(800, 1400);
+bikeSpawnTimer		= irandom_range(800, 1800);
 alarm[0]			= carBehindTimer;
 alarm[6]			= policeBehindTimer;
+alarm[7]			= bikeSpawnTimer;
 
 
-// ---- UPGRADES -------------------------------------------------
+// ---- UPGRADES ---------------------
 theOldValue			= spd[speedLevel];
 speedPickup			= false;
 speedPickupSpeed	= 2;
@@ -101,7 +107,3 @@ turboLevelBarMax = 100;
 drainTurbo = false;
 zoomOut = false;
 
-
-// ---- LITERALLY SOMETHING ELSE ----
-image_speed = 0;
-image_index = 3;
